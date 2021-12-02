@@ -4,17 +4,12 @@ namespace test\bw;
 
 use pocketmine\plugin\PluginBase;
 
-class main extends PluginBase{
+class Main extends PluginBase{
 
-  Public function onEnable(){
-    $this->getLogger()-info("Bedwars Test (DONT WORK YET)") 
-    public function onLoad()
-  } 
-    $this->getLogger()->info("Loading Plugin");
-  }
+    public function onEnable(){
+        $this->getServer()->getPluginManager()->registerEvents($this,$this);
+        $this->getLogger()->info("BedWarsTest");
+       
+    }
 
-  public function onDisable(){
-    $this->getLogger()->info("Plugin Disabled");
-  }
-
-} 
+}
