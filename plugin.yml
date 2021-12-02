@@ -2,4 +2,4 @@ name: BedWarsTest
 version: 1.0-test
 api: 3.0.0
 Author: ToxicGG
-main: test/bw/main
+main: test\bw\main
