@@ -1,8 +1,8 @@
 <?php
 
-namespace test/bw;
+namespace test\bw;
 
-use pocketmine/plugin/PluginBase;
+use pocketmine\plugin\PluginBase;
 
 class main extends PluginBase{
 
