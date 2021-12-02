@@ -24,7 +24,7 @@ use pocketmine\network\mcpe\protocol\LevelSoundEventPacket;
 use pocketmine\network\mcpe\protocol\AddActorPacket;
 use pocketmine\Player;
 
-class Fireball extends Throwable {
+class fireball extends Throwable{
     
     public const NETWORK_ID = self::SMALL_FIREBALL;
 
