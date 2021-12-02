@@ -4,7 +4,7 @@ namespace test\bw;
 
 use pocketmine\plugin\PluginBase;
 
-class Main extends PluginBase{
+class main extends PluginBase{
 
     public function onEnable(){
         $this->getServer()->getPluginManager()->registerEvents($this,$this);
