@@ -9,5 +9,4 @@ class main extends PluginBase{
   Public function onEnable(){
     $this->getLogger()-info("Bedwars Test (DONT WORK YET)") 
   }
-
 }
