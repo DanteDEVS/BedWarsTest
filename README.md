@@ -1,2 +1,3 @@
-# TestPlugin
-A test Plugin
+# BedWarsTest
+WARNING :
+THIS PLUGIN DONT WORK YET... 
